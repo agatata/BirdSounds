@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:minHeight="@dimen/list_item_height"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image_dspl"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/name_text_view_dspl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/text_color"
+        android:textStyle="bold"
+        tools:text="kaczka krzyżówka" />
+
+    <TextView
+        android:id="@+id/place_text_view_dspl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/text_color"
+        tools:text="parki, stawy" />
+
+</LinearLayout>
